@@ -31,13 +31,13 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tipoDeSapatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.itemVendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.itemVendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button4 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -68,6 +68,12 @@
             this.tipoDeSapatosToolStripMenuItem.Name = "tipoDeSapatosToolStripMenuItem";
             this.tipoDeSapatosToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.tipoDeSapatosToolStripMenuItem.Text = "Tipo de Sapatos";
+            // 
+            // itemVendasToolStripMenuItem
+            // 
+            this.itemVendasToolStripMenuItem.Name = "itemVendasToolStripMenuItem";
+            this.itemVendasToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.itemVendasToolStripMenuItem.Text = "Item Vendas";
             // 
             // toolStripSeparator1
             // 
@@ -121,12 +127,7 @@
             this.button1.TabIndex = 7;
             this.button1.Text = "Estoque";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // itemVendasToolStripMenuItem
-            // 
-            this.itemVendasToolStripMenuItem.Name = "itemVendasToolStripMenuItem";
-            this.itemVendasToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.itemVendasToolStripMenuItem.Text = "Item Vendas";
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button4
             // 
@@ -137,6 +138,7 @@
             this.button4.TabIndex = 11;
             this.button4.Text = "Fabricantes";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form_inicio
             // 

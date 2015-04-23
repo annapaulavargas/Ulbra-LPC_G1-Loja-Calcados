@@ -18,13 +18,27 @@ namespace Trabalho_G1
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Form_cliente cliente = new Form_cliente();
+            cliente.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Form_vendas vendas = new Form_vendas();
             vendas.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form_fabricante fabricante = new Form_fabricante();
+            fabricante.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form_estoque estoque = new Form_estoque();
+            estoque.Show();
+
         }
     }
 }
