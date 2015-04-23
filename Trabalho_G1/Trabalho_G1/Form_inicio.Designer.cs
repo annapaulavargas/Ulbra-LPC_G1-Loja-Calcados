@@ -34,11 +34,11 @@
             this.itemVendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.bt_vendas = new System.Windows.Forms.Button();
+            this.bt_clientes = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.bt_estoque = new System.Windows.Forms.Button();
+            this.bt_fabricantes = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -86,27 +86,27 @@
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             // 
-            // button3
+            // bt_vendas
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(216, 118);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(179, 35);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Vendas";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.bt_vendas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_vendas.Location = new System.Drawing.Point(216, 118);
+            this.bt_vendas.Name = "bt_vendas";
+            this.bt_vendas.Size = new System.Drawing.Size(179, 35);
+            this.bt_vendas.TabIndex = 10;
+            this.bt_vendas.Text = "Vendas";
+            this.bt_vendas.UseVisualStyleBackColor = true;
+            this.bt_vendas.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button2
+            // bt_clientes
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(216, 159);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(179, 35);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Clientes ";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.bt_clientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_clientes.Location = new System.Drawing.Point(216, 159);
+            this.bt_clientes.Name = "bt_clientes";
+            this.bt_clientes.Size = new System.Drawing.Size(179, 35);
+            this.bt_clientes.TabIndex = 9;
+            this.bt_clientes.Text = "Clientes ";
+            this.bt_clientes.UseVisualStyleBackColor = true;
+            this.bt_clientes.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
@@ -118,38 +118,38 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Escolha uma opção de cadastro:";
             // 
-            // button1
+            // bt_estoque
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(216, 241);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(179, 35);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Estoque";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.bt_estoque.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_estoque.Location = new System.Drawing.Point(216, 241);
+            this.bt_estoque.Name = "bt_estoque";
+            this.bt_estoque.Size = new System.Drawing.Size(179, 35);
+            this.bt_estoque.TabIndex = 7;
+            this.bt_estoque.Text = "Estoque";
+            this.bt_estoque.UseVisualStyleBackColor = true;
+            this.bt_estoque.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button4
+            // bt_fabricantes
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(216, 200);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(179, 35);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "Fabricantes";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.bt_fabricantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_fabricantes.Location = new System.Drawing.Point(216, 200);
+            this.bt_fabricantes.Name = "bt_fabricantes";
+            this.bt_fabricantes.Size = new System.Drawing.Size(179, 35);
+            this.bt_fabricantes.TabIndex = 11;
+            this.bt_fabricantes.Text = "Fabricantes";
+            this.bt_fabricantes.UseVisualStyleBackColor = true;
+            this.bt_fabricantes.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form_inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(586, 410);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.bt_fabricantes);
+            this.Controls.Add(this.bt_vendas);
+            this.Controls.Add(this.bt_clientes);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.bt_estoque);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form_inicio";
@@ -168,11 +168,11 @@
         private System.Windows.Forms.ToolStripMenuItem tipoDeSapatosToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button bt_vendas;
+        private System.Windows.Forms.Button bt_clientes;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bt_estoque;
         private System.Windows.Forms.ToolStripMenuItem itemVendasToolStripMenuItem;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button bt_fabricantes;
     }
 }
