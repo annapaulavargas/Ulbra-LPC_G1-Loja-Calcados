@@ -23,7 +23,8 @@ namespace Trabalho_G1
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Form_vendas vendas = new Form_vendas();
+            vendas.Show();
         }
     }
 }
