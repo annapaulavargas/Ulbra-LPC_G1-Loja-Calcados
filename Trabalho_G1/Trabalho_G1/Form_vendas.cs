@@ -20,5 +20,17 @@ namespace Trabalho_G1
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (codigoBox.Text == "" || clienteBox.Text == "" || dataVendaBox.Text == "" || totalBox.Text == "")
+            {
+                MessageBox.Show("Campo em branco, valor inválido...", "Campo Inválido");
+            }
+            else
+            {
+                    
+            }
+        }
     }
 }

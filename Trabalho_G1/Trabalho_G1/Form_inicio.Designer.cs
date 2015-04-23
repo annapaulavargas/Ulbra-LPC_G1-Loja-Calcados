@@ -39,6 +39,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.bt_estoque = new System.Windows.Forms.Button();
             this.bt_fabricantes = new System.Windows.Forms.Button();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.vendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fabricantesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.estoqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,6 +61,7 @@
             // 
             this.cadastrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tipoDeSapatosToolStripMenuItem,
+            this.toolStripMenuItem1,
             this.itemVendasToolStripMenuItem,
             this.toolStripSeparator1,
             this.sairToolStripMenuItem});
@@ -140,6 +146,41 @@
             this.bt_fabricantes.UseVisualStyleBackColor = true;
             this.bt_fabricantes.Click += new System.EventHandler(this.button4_Click);
             // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.vendasToolStripMenuItem,
+            this.clienteToolStripMenuItem,
+            this.fabricantesToolStripMenuItem,
+            this.estoqueToolStripMenuItem});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(158, 22);
+            this.toolStripMenuItem1.Text = "Listar";
+            // 
+            // vendasToolStripMenuItem
+            // 
+            this.vendasToolStripMenuItem.Name = "vendasToolStripMenuItem";
+            this.vendasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.vendasToolStripMenuItem.Text = "Vendas";
+            // 
+            // clienteToolStripMenuItem
+            // 
+            this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
+            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.clienteToolStripMenuItem.Text = "Cliente";
+            // 
+            // fabricantesToolStripMenuItem
+            // 
+            this.fabricantesToolStripMenuItem.Name = "fabricantesToolStripMenuItem";
+            this.fabricantesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.fabricantesToolStripMenuItem.Text = "Fabricantes";
+            // 
+            // estoqueToolStripMenuItem
+            // 
+            this.estoqueToolStripMenuItem.Name = "estoqueToolStripMenuItem";
+            this.estoqueToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.estoqueToolStripMenuItem.Text = "Estoque";
+            // 
             // Form_inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -174,5 +215,10 @@
         private System.Windows.Forms.Button bt_estoque;
         private System.Windows.Forms.ToolStripMenuItem itemVendasToolStripMenuItem;
         private System.Windows.Forms.Button bt_fabricantes;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem vendasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem clienteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fabricantesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem estoqueToolStripMenuItem;
     }
 }
