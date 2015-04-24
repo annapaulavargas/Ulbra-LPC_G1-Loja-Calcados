@@ -25,5 +25,15 @@ namespace Trabalho_G1
         {
 
         }
+
+        private void Form_cliente_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
